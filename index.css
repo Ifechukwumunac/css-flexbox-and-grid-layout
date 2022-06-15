@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+:root {
+  width: auto;
+}
+body {
+  background-color: hsl(0, 0%, 90%);
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: row;
+  width: 60%;
+  margin: auto;
+}
+img {
+  padding-bottom: 30px;
+}
+main div {
+  color: hsl(0, 0%, 95%);
+  font-family: Big Shoulders Display;
+  font-weight: 700;
+  padding: 2em;
+  width: 100%;
+  font-size: 18px;
+}
+main div p {
+  color: hsla(0, 0%, 100%, 0.75);
+  font-family: Lexend Deca;
+  font-weight: 400;
+  margin-top: 2.5em;
+  margin-bottom: 4em;
+  font-size: 15px;
+  line-height: 1.6;
+}
+.sedans {
+  background-color: hsl(31, 77%, 52%);
+  border-radius: 5px 0 0 5px;
+}
+.suvs {
+  background-color: hsl(184, 100%, 22%);
+}
+.luxury {
+  background-color: hsl(179, 100%, 13%);
+  border-radius: 0 5px 5px 0;
+}
+button {
+  border-radius: 20px;
+  cursor: pointer;
+  outline: none;
+  border: 3px solid hsl(0, 0%, 95%);
+  background-color: hsl(0, 0%, 95%);
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-family: Lexend Deca;
+  font-weight: 400;
+}
+.sedans button {
+  color: hsl(31, 77%, 52%);
+}
+.sedans button:active {
+  color: hsla(0, 0%, 100%, 0.75);
+  background-color: hsl(31, 77%, 52%);
+}
+.suvs button {
+  color: hsl(184, 100%, 22%);
+}
+.suvs button:active {
+  background-color: hsl(184, 100%, 22%);
+  color: hsla(0, 0%, 100%, 0.75);
+}
+
+.luxury button {
+  color: hsl(179, 100%, 13%);
+}
+.luxury button:active {
+  background-color: hsl(179, 100%, 13%);
+  color: hsla(0, 0%, 100%, 0.75);
+}
+a{
+  color:hsl(31, 77%, 52%);
+  font-family:Lexend Deca;
+  font-weight: bold;
+  text-decoration: none;
+}
+@media only screen and (min-width: 375px) {
+  body {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 1440px) {
+  body {
+    width: 100%;
+  } 
+}
